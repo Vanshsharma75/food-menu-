@@ -1,0 +1,217 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+#navbar,
+#logo {
+  align-items: center;
+  margin-left: 100px;
+}
+#profileDetails {
+  margin-right: 100px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#profileDetails img {
+  height: 42px;
+  width: 42px;
+}
+#home,
+#explore,
+#help {
+  margin-right: 100px;
+}
+#foodImage {
+  width: 87%;
+  height: 500px;
+  background-image: url('./images/Rectangle\ 20.png');
+  background-size: cover;
+  background-position: center;
+  border-radius: 40px;
+  opacity: 0px;
+  margin-bottom: 20px;
+  margin: auto;
+}
+#foodImageInfo {
+  color: white;
+  position: relative;
+  top: 20%;
+  left: 7%;
+}
+#first {
+  color: #dc582a;
+  font-size: 34px;
+}
+#second {
+  margin-top: -30px;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 50.8px;
+  width: 40%;
+}
+#third {
+  margin-top: -30px;
+  font-size: 30px;
+}
+
+#Search {
+  margin-top: 40px;
+  margin-left: 120px;
+}
+.search {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 20px;
+  /* font-family: Poppins; */
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33px;
+  text-align: left;
+}
+.search-container {
+  /* margin-top: 200px; */
+  width: 85%;
+
+  margin-bottom: 2rem;
+}
+.search-container {
+  display: flex;
+  /* flex-direction: column-reverse; */
+  align-items: center;
+  width: 93%;
+  max-width: 100%;
+}
+.search-input {
+  height: 40px;
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  /* border-radius: 30px 0 0 30px; */
+  background-color: #f5f5f5;
+}
+.search-button {
+  height: 60px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  /* border-radius: 0 30px 30px 0; */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-button svg {
+  stroke: white;
+  width: 20px;
+  height: 20px;
+}
+
+#btnDiv {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+  margin-top: 70px;
+}
+#btn {
+  color: white;
+  font-size: 22px;
+  border: none;
+  border-radius: 15px;
+  margin-left: 60px;
+  padding-top: 50px;
+  padding-right: 150px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+#mainContent {
+  display: flex;
+  justify-content: flex-start;
+}
+#sidebar {
+  width: 450px;
+  margin-left: 120px;
+  margin-top: 80px;
+}
+#rating {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 25px;
+}
+#rateData {
+  font-size: 20px;
+  margin-top: auto;
+}
+#contentBar {
+  display: flex;
+  flex-wrap: wrap; /* Allows the cards to wrap to the next row */
+  justify-content: space-between; /* Ensures equal spacing between cards */
+  margin-top: 70px;
+  width: 1200px;
+}
+.Card {
+  /* Makes sure each card takes up one-third of the row, minus spacing */
+  margin: 12px; /* Adds some margin between the cards */
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+.Card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+#dishDetails {
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#dishName {
+  font-weight: 600;
+  font-size: 30px;
+}
+#foodcategory {
+  margin-left: 10px;
+}
+#timeContainer {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: -50px;
+  margin-left: 10px;
+  color: #dc582a;
+}
+#footer {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+#pm {
+  color: rgb(78, 88, 88);
+  font-size: 20px;
+}
+#pmc {
+  color: rgb(78, 88, 88);
+  font-size: 20px;
+  width: 400px;
+}
+.Resouses {
+  margin-left: 150px;
+}
+.email {
+  margin-left: 150px;
+}
+.company {
+  margin-left: 150px;
+}
+.des {
+  margin-left: 20px;
+}
